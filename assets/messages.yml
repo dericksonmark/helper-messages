@@ -333,6 +333,18 @@ messages:
 
         %quick_links%
       fillname: []
+  duplicate-of-mc-207896:
+    - project:
+        - mc
+        - mcl
+      name: Duplicate of MC-207896
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue in *MC-207896*, so this ticket is being resolved and linked as a *duplicate*.
+        
+        This issue is known to be caused by illegal or incompatible software installed on your computer.
+        -- Update your [hosts file|https://minecrafthopper.net/help/hosts-file/] to potentially remove issues caused by any incompatible software.
+        -- If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
   duplicate-of-mc-297:
     - project: mc
       name: Duplicate of MC-297
